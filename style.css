@@ -1,0 +1,194 @@
+@font-face {
+	font-family: 'cp';
+	src: url(fonts/ChaparralPro-Regular.OTF);
+}
+/*
+font awesome icons http://fortawesome.github.io/Font-Awesome/icons/
+to use :before or :after pseudo content http://astronautweb.co/snippet/font-awesome/
+*/
+body{
+	font-family: 'cp';
+	background: #DCA775;
+}
+hr{
+	border-color: #333;
+	opacity: 0.2;
+}
+.container{
+	border: 1px solid #333; /*#EED3BA*/
+	box-shadow: 0px 10px 50px 20px #3d3b3d;
+	border-radius: 5px;
+	background-color: #D24848;
+	padding-top: 20px; 
+	/*padding-bottom: 20px;*/
+	margin-top: 10px; margin-bottom: 10px;
+}
+#pheader{
+	background: url('header.jpg') no-repeat scroll center center #ffffff;
+	height: 300px;
+	margin-bottom: 15px;
+	
+}
+#pheader-title{
+	/*pointer-events: none;*/
+	cursor: initial;
+}
+.home a, .project a{
+	color: #333;
+}
+.home a:hover,.project a:hover{
+	text-decoration: none;
+	color: #DCA775;
+	text-shadow: 1px 1px #333;
+}
+.copyright{
+	color: #DCA775;
+	font-size: 0.8em;
+	text-align: center;
+	position: relative;
+	margin-top: 20px;
+	right: 10px;
+}
+/* ------------------- helper functions -------------- */
+.sc{
+	font-variant: small-caps;
+}
+/* ------------------- Nav Menu ---------------------------------------*/
+.nav{
+	background-color:rgba(220,167,117,0.6);
+	margin-bottom: 20px;
+	border-radius: 4px 4px 0 0;
+	font-variant: small-caps;
+}
+.nav-tabs > li > a{
+	color: #333;	
+	margin-right: 5px;
+}
+.nav-tabs > li.active > a{
+	color: black;	
+}
+.nav-tabs{
+	border-bottom: 1px solid #333;
+}
+.nav-tabs > li a{
+
+}
+.nav-tabs > li.active a{
+	border-color: #333;
+	background-color: #DCA775;
+	border-bottom: 1px solid #D24848;
+	pointer-events: none;
+}
+
+.nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{
+	border-color: #333;
+	background-color: #DCA775;
+	border-bottom: 1px solid #D24848;
+	color: black;
+}
+.nav > li > a:hover,.nav > li > a:active,.nav > li > a:focus{
+	border-color: #333;
+	background-color: #DCA775;
+	border-bottom: 1px solid #D24848;
+	color: black;
+}
+/* ------------------------- Project Page ------------------- */
+.project{
+	background-color:rgba(220,167,117,0.6);
+	padding-top: 30px; padding-bottom: 10px;
+	border-radius: 4px 4px 0 0;
+	margin-bottom: 15px;
+	position: relative;
+}
+.project p{
+	margin-top: 5px;
+}
+.project .title{
+	border-bottom: 1px dashed #333;
+	position: relative;
+	font-size: 1.7em;
+}
+.bookie{
+	width: 80px;
+	height: 45px;
+	position: absolute;
+	right: -79px; top: 10px;
+	
+	display:block;
+	font-family:"Reenie Beanie",arial,sans-serif;
+	-o-transform:rotate(-3deg);
+	-webkit-transform:rotate(-3deg);
+	-moz-transform:rotate(-3deg);
+	padding-left: 10px;
+	font-size: 1.2em;
+}
+/* labels for projects */
+.ml{
+	background-color: #99CCFF;	
+}
+.ml:after{
+	content: "machine learning";
+}
+.ma{
+	padding-top: 10px;
+	background-color: #FFCC66;
+}
+.ma:after{
+	content: "mobile-web";
+}
+.sda{
+	background-color:#75FF75;
+}
+.sda:after{
+	content: "signal-data analysis";
+}
+.misc{
+	padding-left: 20px; padding-top: 10px;
+	background-color:#FF9999;
+}
+.misc:after{
+	content: "misc";
+}
+.label{
+	position: absolute;
+	left: 0; top: -20px;
+	background-color: rgba(255,255,255,0.5);
+	width: 90px; height: 15px;
+	display: block;
+}
+.label p{
+	font-size: 0.5em;
+	color: black;
+	margin-top: 0 !important;
+}
+.label p:before{
+	font-family: 'FontAwesome';
+    content:   "\f133\00a0\00a0";
+}
+.project ul{
+	list-style: none;
+}
+.project li:before{
+	font-family: 'FontAwesome';
+    content:  "...\f040";
+}
+/* ------------------- home page --------------------- */
+.saying{
+	font-style: italic;
+	text-align: justify;
+}
+#saying-author{
+	text-align: right;
+}
+.home .sc{
+	border-bottom: 1px dotted #333;
+	margin-bottom: 10px;
+}
+.details{
+	background-color:rgba(220,167,117,0.6);
+	padding-top: 10px; padding-bottom:10px;
+	text-align: center;
+}
+.home h3{
+	font-variant: small-caps;
+}
