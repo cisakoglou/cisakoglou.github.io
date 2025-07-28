@@ -7,7 +7,7 @@ font awesome icons http://fortawesome.github.io/Font-Awesome/icons/
 to use :before or :after pseudo content http://astronautweb.co/snippet/font-awesome/
 */
 body{
-	font-family: 'cp';
+	font-family: 'Roboto', sans-serif;
 	background: #DCA775;
 }
 hr{
